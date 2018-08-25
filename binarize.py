@@ -16,7 +16,7 @@ for row in range(len(pixels)):
       sum=sum+pixels[row][col]
       total+=1
 
-threshold=135
+threshold = 135 #alter the threshold value to adjust it to your images
 for row in range(len(pixels)):
    for col in range(len(pixels[row])):
        if pixels[row][col]>threshold:
